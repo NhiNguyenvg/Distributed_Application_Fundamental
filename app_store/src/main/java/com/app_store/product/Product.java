@@ -1,4 +1,4 @@
-package com.app_store.products;
+package com.app_store.product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,17 +60,6 @@ public class Product {
 
     public void setColor(String color) {
         this.color = color;
-    }
-
-    // Static list of 5 example products
-    public static List<Product> getExampleProducts() {
-        List<Product> products = new ArrayList<>();
-        products.add(new Product(1, "Laptop", 999.99, "15 inch", "Silver"));
-        products.add(new Product(2, "Smartphone", 599.99, "6 inch", "Black"));
-        products.add(new Product(3, "Headphones", 199.99, "One Size", "Blue"));
-        products.add(new Product(4, "Smartwatch", 149.99, "One Size", "Black"));
-        products.add(new Product(5, "Tablet", 349.99, "10 inch", "White"));
-        return products;
     }
 
 }
